@@ -1,0 +1,8 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\bin\Debug\Lista1.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\bin\Debug\Lista1.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\bin\Debug\Lista1.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\obj\Debug\Lista1.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\obj\Debug\Lista1.csproj.SuggestedBindingRedirects.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\obj\Debug\Lista1.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\obj\Debug\Lista1.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista1\Lista1\obj\Debug\Lista1.pdb

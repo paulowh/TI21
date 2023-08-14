@@ -11,21 +11,21 @@ namespace Aula02
         static void Main(string[] args)
         {
 
-            int a;
-            int b;
-            int soma;
-            int subtracao;
-            int multiplicacao;
-            int divisao;
-            int resto;
+            float a;
+            float b;
+            float soma;
+            float subtracao;
+            float multiplicacao;
+            float divisao;
+            float resto;
 
             //Console.Write("Hello World");
 
             Console.Write("Digite o 1º numero: ");
-            a = int.Parse( Console.ReadLine() );
+            a = float.Parse( Console.ReadLine() );
 
             Console.Write("Digite o 2º numero: ");
-            b = int.Parse( Console.ReadLine() );
+            b = float.Parse( Console.ReadLine() );
 
             soma = a + b; //Estamos somando os valores das variaveis a e b
 
