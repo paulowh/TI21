@@ -86,20 +86,20 @@ namespace laco_repeticao
 
                     if(tentativa_usuario > numero_aleatorio)
                     {
-                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.Blue; //mudo a cor das letras para a cor AZUL
                         Console.WriteLine("O numero digitado é MAIOR que o numero sorteado!");
                         
                     } else if (tentativa_usuario < numero_aleatorio)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Red; //mudo a cor das letras para VERMELHO
                         Console.WriteLine("O numero digitado é MENOR que o numero sorteado!");
                     } else
                     {
 
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Green; //mudo a cor das letras para VERDE
                         Console.WriteLine("Parabens Você GANHOU !!!!");
                     }
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor(); //mudo a cor das letras para BRANCO
                     Console.WriteLine("");
 
                 }
