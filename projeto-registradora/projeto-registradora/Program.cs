@@ -12,7 +12,7 @@ namespace projeto_registradora
         {
             int menu;
             string loop = "S";
-            string nomeProduto1 = "Coxinha", nomeProduto2 = "Agua", nomeProduto3;
+            string nomeProduto1 = "Coxinha", nomeProduto2 = "Agua", nomeProduto3 = "";
             double valor1 = 6.5 , valor2 = 2.50, valor3;
             int quantidade1 = 3, quantidade2 = 10, quantidade3;
 
@@ -47,7 +47,14 @@ namespace projeto_registradora
                 }
                 else if (menu == 2)
                 {
-                    Console.Write("1- Coxinha \n 2- Agua \n 3- \"Sem Cadastro\" \n Digite o produto: ");
+                    Console.Write("1-"+nomeProduto1+" \n 2- "+nomeProduto2+" \n 3- "+nomeProduto3+"\"Sem Cadastro\" \n Digite o produto: ");
+                    int venda = int.Parse(Console.ReadLine());
+
+                    if (venda == 1)
+                    {
+                        Console.WriteLine("Produto 1: " + nomeProduto1 + " - Estoque: " + quantidade1 + " - Valor: " + valor1);
+                    }
+
 
 
 
