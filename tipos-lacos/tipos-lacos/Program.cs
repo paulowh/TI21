@@ -75,6 +75,10 @@ namespace tipos_lacos
                         Console.WriteLine("Estou na condição 5");
                         break;
 
+                    default:
+                        Console.WriteLine("Você escolheu uma opção invalida");
+                        break;
+
 
 
 
