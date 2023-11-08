@@ -17,27 +17,33 @@ namespace calc
             InitializeComponent();
         }
 
-        public int resultadoSoma(int num1, int num2)
+        public void escolhaOperador(int numero, string operadorEscolhido)
         {
-            int resultado = 0;
-            resultado = num1 + num2;
-            return resultado;
+
+            lbTemp.Text = numero.ToString();
+            lbOperador.Text = operadorEscolhido;
+            txbNumero1.Text = "";
+
         }
-        
-        public int calculos(int num1, int num2, string operador ) 
+
+
+        public int calculos(int num1, int num2, string operador)
         {
             int resultado = 0;
 
             if (operador == "+")
             {
                 resultado = num1 + num2;
-            } else if (operador == "-")
+            }
+            else if (operador == "-")
             {
                 resultado = num1 - num2;
-            } else if (operador == "x")
+            }
+            else if (operador == "x")
             {
                 resultado = num1 * num2;
-            } else if (operador == "/")
+            }
+            else if (operador == "/")
             {
                 resultado = num1 / num2;
             }
@@ -45,23 +51,48 @@ namespace calc
             return resultado;
         }
 
-
-        private void btnMais_Click(object sender, EventArgs e )
+        private void btnOperadores_Click(object sender, EventArgs e)
         {
-            int numero1 = int.Parse( txbNumero1.Text );
-            int numero2 = int.Parse( txbNumero2.Text );
 
-            Button botao = (Button)sender;
-            string operadorSelecionado = botao.Text;
+            if (txbNumero1.Text != "" && txbNumero1.Text != "Error" )
+            {
 
-            int total;
+                int numero1 = int.Parse(txbNumero1.Text);
 
-            //total = resultadoSoma(numero1, numero2);
+                //int numero2 = int.Parse( txbNumero2.Text );
+                int numero2 = 0;
+                int total;
 
-            total = calculos(numero1, numero2, operadorSelecionado);
+                Button botao = (Button)sender;
+                string operadorSelecionado = botao.Text;
 
-            lbResultado.Text = total.ToString();
+                //total = resultadoSoma(numero1, numero2);
+
+                //total = calculos(numero1, numero2, operadorSelecionado);
+                //lbResultado.Text = total.ToString();
+
+                escolhaOperador(numero1, operadorSelecionado);
+
+            } else
+            {
+                txbNumero1.Text = "Error";
+            }
         }
 
+        private void btnNumber_Click(object sender, EventArgs e)
+        {
+            Button valorBotao = (Button)sender;
+
+            //MessageBox.Show(valorBotao.Text);
+            //txbNumero1.Text = txbNumero1.Text + valorBotao.Text;
+
+            txbNumero1.Text += valorBotao.Text;
+
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txbNumero1.Text = "";
+        }
     }
 }
