@@ -26,7 +26,6 @@ namespace calc
 
         }
 
-
         public int calculos(int num1, int num2, string operador)
         {
             int resultado = 0;
@@ -46,6 +45,10 @@ namespace calc
             else if (operador == "/")
             {
                 resultado = num1 / num2;
+            }
+            else if (operador == "resto")
+            {
+                resultado = num1 % num2;
             }
 
             return resultado;
@@ -93,6 +96,37 @@ namespace calc
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txbNumero1.Text = "";
+        }
+
+        private void btnIgual_Click (object sender, EventArgs e)
+        {
+
+            int primeiro_numero = int.Parse(lbTemp.Text);
+            int segundo_numero = int.Parse(txbNumero1.Text);
+            string operador = lbOperador.Text;
+
+            int total = calculos(primeiro_numero, segundo_numero, operador);
+
+            lbResultado.Text = total.ToString();
+
+            //MessageBox.Show( primeiro_numero + " | " + segundo_numero + " | " + operador  );
+        }
+
+        private void btnMaisMenos_Click(object sender, EventArgs e)
+        {
+            int numero = int.Parse(txbNumero1.Text);
+            int numeroConvertido = numero * -1;
+
+            txbNumero1.Text = numeroConvertido.ToString();
+        }
+
+        private void btnLimpaTudo_Click(object sender, EventArgs e)
+        {
+            txbNumero1.Text = "";
+            lbResultado.Text = "R";
+            lbTemp.Text = "temp";
+            lbOperador.Text = "op";
+
         }
     }
 }
