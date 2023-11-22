@@ -1,0 +1,19 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\bin\Debug\seletores.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\bin\Debug\seletores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\bin\Debug\seletores.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.Properties.Resources.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.csproj.GenerateResource.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\seletores\seletores\obj\Debug\seletores.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\bin\Debug\seletores.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\bin\Debug\seletores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\bin\Debug\seletores.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.Form1.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.Properties.Resources.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.csproj.GenerateResource.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\seletores\seletores\obj\Debug\seletores.pdb
