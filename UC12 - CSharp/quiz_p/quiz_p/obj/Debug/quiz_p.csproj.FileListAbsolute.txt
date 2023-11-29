@@ -2,7 +2,6 @@ C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\q
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\bin\Debug\quiz_p.exe
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\bin\Debug\quiz_p.pdb
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.csproj.AssemblyReference.cache
-C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.Form1.resources
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.Properties.Resources.resources
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.csproj.GenerateResource.cache
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.csproj.CoreCompileInputs.cache
@@ -40,3 +39,4 @@ C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\q
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.csproj.CopyComplete
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\quiz_p\quiz_p\obj\Debug\quiz_p.frmCadastrarPergunta.resources

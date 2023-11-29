@@ -1,6 +1,6 @@
 ﻿namespace quiz_p
 {
-    partial class Form1
+    partial class frmCadastrarPergunta
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrarPergunta));
             this.rtxPergunta = new System.Windows.Forms.RichTextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.rbAlternativaCorretaA = new System.Windows.Forms.RadioButton();
@@ -43,6 +43,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txbAlternativaD = new System.Windows.Forms.TextBox();
             this.rbAlternativaCorretaD = new System.Windows.Forms.RadioButton();
+            this.btnJogar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rtxPergunta
@@ -167,11 +168,22 @@
             this.rbAlternativaCorretaD.TabStop = true;
             this.rbAlternativaCorretaD.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // btnJogar
+            // 
+            this.btnJogar.Location = new System.Drawing.Point(124, 405);
+            this.btnJogar.Name = "btnJogar";
+            this.btnJogar.Size = new System.Drawing.Size(105, 33);
+            this.btnJogar.TabIndex = 14;
+            this.btnJogar.Text = "Jogar";
+            this.btnJogar.UseVisualStyleBackColor = true;
+            this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
+            // 
+            // frmCadastrarPergunta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 450);
+            this.Controls.Add(this.btnJogar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txbAlternativaD);
             this.Controls.Add(this.rbAlternativaCorretaD);
@@ -187,7 +199,7 @@
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.rtxPergunta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "frmCadastrarPergunta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Perguntas";
             this.ResumeLayout(false);
@@ -211,6 +223,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txbAlternativaD;
         private System.Windows.Forms.RadioButton rbAlternativaCorretaD;
+        private System.Windows.Forms.Button btnJogar;
     }
 }
 
