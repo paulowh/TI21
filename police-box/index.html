@@ -10,6 +10,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrossel.css">
 </head>
 
 <body>
@@ -36,7 +37,20 @@
         </nav>
 
     </header>
-    <section id="banner"></section>
+
+    <section id="banner">
+        <main class="carrossel-container">
+            <div class="carrossel">
+                <img src="./img/banner/banner_01.png" alt="banner 01">
+                <img src="./img/banner/banner_02.png" alt="banner 02">
+                <img src="./img/banner/banner_03.png" alt="banner 03">
+                <img src="./img/banner/banner_04.png" alt="banner 04">
+                <img src="./img/banner/banner_00.png" alt="banner 00">
+            </div>
+            <button class="anterior" onclick="javascript:anteriorSlide()" ><i class="bi bi-arrow-left"></i></button>
+            <button class="proximo"  onclick="javascript:proximoSlide()"  ><i class="bi bi-arrow-right"></i></button>
+        </main>
+    </section>
 
     <section id="produtos">
         <h2 class="titulo">Produtos</h2>
@@ -201,9 +215,6 @@
 
         </main>
     </section>
-
-
-
 </body>
-
+<script src="js/script.js"></script>
 </html>

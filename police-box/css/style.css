@@ -55,11 +55,15 @@ header nav {
 
 /* # -> referencia do ID */
 #banner{
-    background-image: url(../img/banner_1.png);
+    /* background-image: url(../img/banner_1.png);
     height: 616px;
-    /* height: 100%; */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    /* height: 100%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #produtos {
@@ -136,4 +140,15 @@ header nav {
 
 #produtos figure figcaption span.avaliacao i{
     line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+
+    .menu-perfil{
+        display: flex;
+        flex-direction: column;
+    }
 }
