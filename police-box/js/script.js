@@ -31,3 +31,7 @@ function proximoSlide() {
     indexSlide = indexSlide + 1
     showSlide(indexSlide)
 }
+
+setInterval(() => {
+    proximoSlide()
+}, 10000);
