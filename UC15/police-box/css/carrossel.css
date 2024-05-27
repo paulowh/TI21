@@ -1,0 +1,47 @@
+.carrossel-container {
+    width: 100%;
+    max-width: 1920px;
+    max-height: 720px ;
+
+    position: relative;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carrossel-container button{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);    
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.carrossel-container button:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carrossel-container button.anterior{
+    left: 10px;
+}
+
+.carrossel-container button.proximo{
+    right: 10px;
+}
+
+.carrossel img{
+    width: 100%;
+}

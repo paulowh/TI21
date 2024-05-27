@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    height: 90vh;
+    margin: 15px 10%;
+    flex-direction: column;
+}
+
+
+.imagem{
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+}

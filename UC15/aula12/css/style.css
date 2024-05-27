@@ -1,0 +1,88 @@
+.corpinho {
+    display: flex;
+    height: 90vh;
+    margin: 15px 10%;
+    flex-direction: column;
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.font_branco {
+    color: aliceblue
+}
+
+.font_preto {
+    color: black;
+}
+
+.texto {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+/* @media comando para aplicar novos estilos a pagina  */
+/* screen -> a referencia é a tela do usuario  */
+/* max-width for igual a 768px  */
+@media screen and (max-width: 768px) {
+    .corpinho{
+        background-color: skyblue;
+        transition: 1s;
+
+    }
+
+    .box{
+        height: 250px;
+        transition: 1s;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .corpinho{
+        background-color: tomato;
+        transition: 1s;
+
+    }
+}
+
+.box{
+    animation: movimento 3s linear infinite;
+}
+
+@keyframes movimento {
+    100%{
+        width: 900px;
+    }
+    50%{
+        width: 500px;
+    }
+    10%{
+        width: 100px;
+    }
+
+}
