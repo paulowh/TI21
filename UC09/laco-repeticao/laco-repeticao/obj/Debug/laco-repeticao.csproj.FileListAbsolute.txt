@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\bin\Debug\laco-repeticao.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\bin\Debug\laco-repeticao.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\bin\Debug\laco-repeticao.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\obj\Debug\laco-repeticao.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\obj\Debug\laco-repeticao.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\obj\Debug\laco-repeticao.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\laco-repeticao\laco-repeticao\obj\Debug\laco-repeticao.pdb
