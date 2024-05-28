@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="form.html">
+            <label for="identificacao">Nome: </label>
+            <input type="text" name="nome" value="paulo h santos">
+
+            <label>telefone: </label>
+            <input type="number" name="telefone" value="19992632392">
+
+            <label>data nascimento: </label>
+            <input type="date" name="data_nascimento" value="2024-06-06">
+
+            <label>idade: </label>
+            <input type="number" name="idade" value="20">
+
+            <label for="f">Feminino: </label>
+            <input type="radio" name="genero" value="f" id="f">
+
+            <label for="m">Masculino: </label>
+            <input type="radio" name="genero" value="m" id="m" checked >
+            <br><br>
+            <label>Deixe sua mensagem:</label>
+            <textarea name="texto" cols="30" rows="10">aqui eu tenho um texto</textarea>
+            <br><br>
+            <input type="month">
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

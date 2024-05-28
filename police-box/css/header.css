@@ -1,0 +1,53 @@
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.menu-perfil ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.menu-perfil li {
+    display: inline-block;
+}
+
+.menu-perfil li a {
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+
+}
+
+.menu-perfil .selecionado,
+.menu-perfil li a:hover 
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: white;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+
+    .menu-perfil{
+        display: flex;
+        flex-direction: column;
+    }
+}
