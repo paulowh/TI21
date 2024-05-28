@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\bin\Debug\matriz.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\bin\Debug\matriz.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\bin\Debug\matriz.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\obj\Debug\matriz.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\obj\Debug\matriz.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\obj\Debug\matriz.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\matriz\matriz\obj\Debug\matriz.pdb

@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\bin\Debug\array.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\bin\Debug\array.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\bin\Debug\array.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\obj\Debug\array.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\obj\Debug\array.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\obj\Debug\array.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\array\array\obj\Debug\array.pdb

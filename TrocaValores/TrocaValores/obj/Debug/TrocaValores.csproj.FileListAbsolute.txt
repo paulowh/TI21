@@ -1,0 +1,10 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\bin\Debug\TrocaValores.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\bin\Debug\TrocaValores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\bin\Debug\TrocaValores.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.Form1.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.Properties.Resources.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.csproj.GenerateResource.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\TrocaValores\TrocaValores\obj\Debug\TrocaValores.pdb

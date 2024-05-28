@@ -1,0 +1,10 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\bin\Debug\Ola_Mundo.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\bin\Debug\Ola_Mundo.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\bin\Debug\Ola_Mundo.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.Form1.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.Properties.Resources.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.csproj.GenerateResource.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Ola_Mundo\Ola_Mundo\obj\Debug\Ola_Mundo.pdb
