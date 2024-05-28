@@ -1,0 +1,6 @@
+paulo|123123|-
+erick|123123|-
+renon|-|renon@g.com
+richard|-|richard@g.com
+guilherme|-|gui@g.com
+pedro|123321|-

@@ -1,0 +1,10 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\bin\Debug\arquivoEmTexto.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\bin\Debug\arquivoEmTexto.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\bin\Debug\arquivoEmTexto.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.Form1.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.Properties.Resources.resources
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.csproj.GenerateResource.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\UC12 - CSharp\arquivoEmTexto\arquivoEmTexto\obj\Debug\arquivoEmTexto.pdb
