@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\bin\Debug\Lista-For-Case.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\bin\Debug\Lista-For-Case.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\bin\Debug\Lista-For-Case.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\obj\Debug\Lista-For-Case.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\obj\Debug\Lista-For-Case.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\obj\Debug\Lista-For-Case.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\Lista-For-Case\Lista-For-Case\obj\Debug\Lista-For-Case.pdb
