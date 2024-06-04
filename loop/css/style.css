@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+#produtos {
+    height: 100%;
+}
+
+#produtos .titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+}
+
+.foto-produto{
+    width: 100% ;
+    max-width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#produtos figure{
+    background-color: #d9d9d9; 
+    text-align: center;  
+    padding: 15px 0;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#produtos figure figcaption{
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 120px;
+}
+
+#produtos figure figcaption h4{
+    font-size: auto;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: start;
+}
+
+#produtos figure figcaption span.preco{
+    color: #9125a3;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: end;
+
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: end;
+}
+
+#produtos figure figcaption span.avaliacao{
+    color: #d48c00;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#produtos figure figcaption span.avaliacao i{
+    line-height: 30px;
+}
