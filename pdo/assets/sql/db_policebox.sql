@@ -19,4 +19,30 @@ INSERT INTO tb_produto (titulo, preco, avaliacao, imagem) VALUE ('Wukong', 220.8
 
 SELECT * FROM tb_produto;
 
+CREATE TABLE tb_tipo (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    descricao VARCHAR(255)
+);
+INSERT INTO tb_tipo (descricao) VALUE ('Ação');
+INSERT INTO tb_tipo (descricao) VALUE ('Aventura');
+INSERT INTO tb_tipo (descricao) VALUE ('Estratégia');
+INSERT INTO tb_tipo (descricao) VALUE ('RPG');
+INSERT INTO tb_tipo (descricao) VALUE ('Esportes');
 
+SELECT * FROM tb_tipo;
+
+CREATE TABLE tb_tipo_produto (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_produto INT,
+    id_tipo INT,
+    FOREIGN KEY (id_produto) REFERENCES tb_produto(id),
+    FOREIGN KEY (id_tipo) REFERENCES tb_tipo(id)
+);
+
+SELECT * FROM tb_tipo_produto;
+
+
+SELECT tp.*, p.id as "id_produtinho", p.*, t.descricao 
+FROM tb_tipo_produto as tp 
+INNER JOIN tb_produto as p ON p.id = tp.id_produto 
+INNER JOIN tb_tipo AS t ON t.id =  tp.id_tipo;
