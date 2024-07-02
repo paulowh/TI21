@@ -51,17 +51,28 @@ class Usuario
         }
     }
 
-    public function ListarUsuarios(){
+    public function ListarUsuarios()
+    {
         $conn = new PDO("mysql:host=localhost; dbname=db_login", "root", "");
         $script = "SELECT * FROM tb_usuario";
 
         $lista = $conn->query($script)->fetchAll();
 
         return $lista;
-
     }
 
-    public function DeleteUsuario($id_delete){
+    public function Listar1Usuario($id_consulta)
+    {
+        $conn = new PDO("mysql:host=localhost; dbname=db_login", "root", "");
+        $script = "SELECT * FROM tb_usuario WHERE id = " . $id_consulta;
+
+        $lista = $conn->query($script)->fetch();
+
+        return $lista;
+    }
+
+    public function DeleteUsuario($id_delete)
+    {
         $conn = new PDO("mysql:host=localhost; dbname=db_login", "root", "");
         $script = "DELETE FROM tb_usuario WHERE id = :id";
 
