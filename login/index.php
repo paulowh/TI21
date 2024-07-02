@@ -1,77 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+	<meta charset="utf-8">
+
+	<title>Login</title>
+
+	<link href="./assets/css/style.css" rel="stylesheet">
 </head>
-<style>
-    body {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        justify-content: center;
-        flex-direction: column;
-    }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-
-    }
-
-    input[type="text"] {
-        width: 200px;
-        height: 30px;
-        background-color: #f4f4f4;
-        border: 1px solid black;
-        border-radius: 15px;
-        padding: 5px 5px;
-        margin: 10px;
-    }
-
-    input[type="submit"] {
-        width: 150px;
-        height: 30px;
-        justify-content: center;
-        align-self: end;
-    }
-</style>
-
-<pre>
 <?php
 if (isset($_POST) && !empty($_POST)) {
-    
-    $user = $_POST['usuario'];
-    $password = $_POST['senha'];
-    // new PDO cria a conexão com o banco de dados
-    $conn = new PDO("mysql:host=localhost;dbname=bd_login", "root", "");
-    // $script guarda um script para a consulta do banco, nesse caso verifica se a senha e usuario é igual
-    $script = "SELECT * FROM tb_usuario WHERE usuario = '{$user}' AND senha = '{$password}'";
-    // -> query executa o scritp e o -> fetch retorna o resultado do script
-    // $resultado guarda o resultado da consulta
-    $resultado = $conn->query($script)->fetch();
-    // verifico se a variavel resultado tem algum valor
-    if (!empty($resultado)){
-        echo 'Usuario Validado com sucesso!!!';
-        // ele redireciona a pagina
-        header('location:valido.php');
-    } else {
-        echo 'Usuario não encontrado.';
-    }
+
+	$user = $_POST['usuario'];
+	$password = $_POST['senha'];
+	// new PDO cria a conexão com o banco de dados
+	$conn = new PDO("mysql:host=localhost;dbname=db_login", "root", "");
+	// $script guarda um script para a consulta do banco, nesse caso verifica se a senha e usuario é igual
+	$script = "SELECT * FROM tb_usuario WHERE usuario = '{$user}' AND senha = '{$password}'";
+	// -> query executa o scritp e o -> fetch retorna o resultado do script
+	// $resultado guarda o resultado da consulta
+	$resultado = $conn->query($script)->fetch();
+	// verifico se a variavel resultado tem algum valor
+	if (!empty($resultado)) {
+		echo 'Usuario Validado com sucesso!!!';
+		// ele redireciona a pagina
+		header('location:valido.php');
+	} else {
+		echo 'Usuario não encontrado.';
+	}
 }
-
 ?>
-</pre>
 
-<body>
-    <form action="#" method="POST">
-        <input type="text" name="usuario" placeholder="Login">
-        <input type="text" name="senha" placeholder="Digite sua senha">
-        <input type="submit" value="Enviar">
-    </form>
+<body class="d-flex align-items-center py-4 bg-body-tertiary login">
+
+	<main class="form-signin w-100 m-auto">
+		<form action="#" method="POST">
+			<h1 class="h3 mb-3 fw-normal">Por Favor Faça o Login</h1>
+
+			<div class="form-floating">
+				<input type="text" class="form-control usuario" id="usuario" name="usuario" placeholder="Usuario">
+				<label for="usuario">Usuario</label>
+			</div>
+
+			<div class="form-floating">
+				<input type="text" class="form-control senha" id="senha" name="senha" placeholder="Senha">
+				<label for="senha">Senha</label>
+			</div>
+
+			<div class="form-check text-end my-3">
+				<label class="form-check-label">
+					Problema ao fazer o login?
+					<a href="./cadastro.php">
+						Cadastre Aqui...
+					</a>
+				</label>
+			</div>
+
+			<input class="btn btn-primary w-100 py-2" type="submit">
+
+			<p class="mt-5 mb-3 text-body-secondary">&copy; Aqui estamos mais um dia</p>
+		</form>
+	</main>
+
 </body>
 
 </html>
