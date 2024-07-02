@@ -1,35 +1,14 @@
-<!doctype html>
-<html lang="pt-br">
-
-<head>
-
-	<meta charset="utf-8">
-
-	<title>Login</title>
-
-	<link href="./assets/css/style.css" rel="stylesheet">
-</head>
-
 <?php
+include 'include/header.php';
+include './classe/Usuario.php';
+
 if (isset($_POST) && !empty($_POST)) {
 
 	$user = $_POST['usuario'];
 	$password = $_POST['senha'];
-	// new PDO cria a conexão com o banco de dados
-	$conn = new PDO("mysql:host=localhost;dbname=db_login", "root", "");
-	// $script guarda um script para a consulta do banco, nesse caso verifica se a senha e usuario é igual
-	$script = "SELECT * FROM tb_usuario WHERE usuario = '{$user}' AND senha = '{$password}'";
-	// -> query executa o scritp e o -> fetch retorna o resultado do script
-	// $resultado guarda o resultado da consulta
-	$resultado = $conn->query($script)->fetch();
-	// verifico se a variavel resultado tem algum valor
-	if (!empty($resultado)) {
-		echo 'Usuario Validado com sucesso!!!';
-		// ele redireciona a pagina
-		header('location:valido.php');
-	} else {
-		echo 'Usuario não encontrado.';
-	}
+
+	$usuario = new Usuario();
+	$usuario->ValidarUsuario($user, $password);
 }
 ?>
 

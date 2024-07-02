@@ -12,6 +12,7 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
+
 }
 
 .login {
@@ -20,6 +21,7 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
+
 }
 
 .lista{
@@ -29,6 +31,7 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
+
 }
 
 .form-signin {

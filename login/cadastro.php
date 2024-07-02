@@ -1,14 +1,7 @@
-<!doctype html>
-<html lang="pt-br">
+<?php
+include 'include/header.php';
 
-<head>
-
-    <meta charset="utf-8">
-
-    <title>Cadastro</title>
-
-    <link href="./assets/css/style.css" rel="stylesheet">
-</head>
+?>
 
 <body class="d-flex align-items-center py-4 bg-body-tertiary cadastro">
 
