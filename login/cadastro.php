@@ -10,7 +10,6 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     $dadosUsuario = $usuario->Listar1Usuario($id_alterar);
 }
 
-
 ?>
 
 <body class="d-flex align-items-center py-4 bg-body-tertiary cadastro">
