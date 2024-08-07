@@ -5,7 +5,7 @@ projetos dos alunos:
 - [Doces Lunares](https://doceslunares.paulowh.com/) / [Renon](https://github.com/RenonHG), [Erick](https://github.com/erickgusson)
 - [Vent'Qui](https://ventqui.paulowh.com/) / [Edilson](https://github.com/Arrowaaa)
 - [BuildsBurgues](https://doceslunares.paulowh.com/) / [Guilherme](https://github.com/Guilhlm)
-- [iDrink](https://idrink.paulowh.com/adega-idrink/) / [Gustavo](#), [Lucas](#)
+- [iDrink](https://idrink.paulowh.com/adega-idrink/) / [Gustavo](#), [Lucas](https://github.com/Lucasaraujo2)
 - [PC Prevenido](#) / [Richard](#)
 
 
