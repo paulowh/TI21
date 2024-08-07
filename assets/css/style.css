@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --color-black: #0b0e19;
+    --color-green: #014040;
+    --color-white: #F2ECE4;
+    --color-black-light: #011C26;
+    --color-green-ligth: #ADD9B0;
+    --color-violet: #9125A3;
+    --color-gold: #D48C00;
+}
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+.escondido{
+    display: none;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-black-light);
+    cursor: pointer;
+}
+
+.menu-perfil ul:not(.dropdown-menu) {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.menu-perfil li:not(.drop) {
+    display: inline-block;
+}
+
+.menu-perfil li a {
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--color-black);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+
+}
+
+.menu-perfil .selecionado,
+.menu-perfil li a:hover 
+{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 1px solid var(--color-black);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: var(--color-white);
+    width: 100%;
+}
+
+#banner{
+    /* background-image: url(../img/banner_1.png); */
+    /* height: 616px; */
+    /* height: 100%; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produtos{
+    /* background-color: tomato; */
+    height: 100%;
+}
+
+main.produtos{
+    padding: 20px 0;
+}
+main.produtos a{
+    text-decoration: none;
+    color: var(--color-black-light);
+}
+
+
+#produtos span.preco{
+    color: var(--color-violet);
+    font-weight: 900;   
+    font-size: 1.2rem;
+    text-align: end;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#produtos .titulo, 
+#sobre .titulo{
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+#produtos figure {
+    background-color: var(--color-white);
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 530px;
+}
+
+#produtos figcaption{
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 120px;
+}
+
+#produtos figcaption h4{
+    font-size: auto;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: start;
+}
+
+/* preciso corrigir a definição das imagens */
+#produtos .foto-produto{
+    width: 95%;
+    height: 100%;
+    max-width: 280px;
+    max-height: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+#produtos figcaption span.avaliacao{
+    color: var(--color-gold);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* height: 100%; */
+}
+
+
+#produtos figcaption span.avaliacao{
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-perfil {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+    }
+    .logo{
+        display: none;
+    }
+
+    #banner{
+        height: 30vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #produtos figure {
+        width: 300px;
+        margin: 10px auto;
+    }
+
+}
+
+#sobre{
+    padding: 0 10% 10% 10%;
+}
+
+#sobre .descricao p{
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+#sobre .imagem-right {
+    width: 100%;
+    height: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: right;
+}
+#sobre .imagem-left {
+    width: 100%;
+    height: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: left;
+}
+

@@ -1,0 +1,58 @@
+#cadastro {
+    background-color: #060A14;
+
+}
+
+#cadastro main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cadastro-pessoa {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 244, 244, 0.9);
+    max-width: 560px;
+    min-width: 500px;
+    border-radius: 40px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px;
+  
+}
+
+.cadastro-pessoa label {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cadastro-pessoa h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.cadastro-pessoa input[type="text"],
+.cadastro-pessoa input[type="month"],
+.cadastro-pessoa input[type="number"],
+.cadastro-pessoa input[type="password"],
+.cadastro-pessoa select{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    height: 40px;
+    width: 100%;
+}
+.cadastro-pessoa input[type="submit"]{
+    width: 30%;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    align-self: end;
+    margin-top: 15px;
+}

@@ -1,0 +1,82 @@
+#detalhes{
+    height: 100%;
+}
+
+.foto{
+    width: 100%;
+    max-width: 800px;
+    height: 1000px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.detalhe-produto{
+    display: flex;
+    flex-direction: column;
+}
+
+#detalhes span.avaliacao{
+    color: var(--color-gold);
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    line-height: 60px;
+}
+.titulo-jogo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.genero{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.genero span{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+#detalhes .preco {
+    margin: 30px 5px;
+    display: flex;
+    justify-content: right;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.versao-jogo{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.versao-jogo button{
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px dotted var(--color-black);
+    background-color: var(--color-white);
+
+}
+
+.versao-jogo button:focus{
+    border-radius: 7px;
+    border: 2px solid var(--color-black);
+    background-color: #9EB2B7;
+}
+
+.sobre-jogo h4{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sobre-jogo p{
+    text-align: justify;
+}
