@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\obj\Debug\tipos-lacos.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\obj\Debug\tipos-lacos.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\bin\Debug\tipos-lacos.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\bin\Debug\tipos-lacos.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\bin\Debug\tipos-lacos.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\obj\Debug\tipos-lacos.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\tipos-lacos\tipos-lacos\obj\Debug\tipos-lacos.pdb

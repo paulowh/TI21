@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tipos-lacos", "tipos-lacos\tipos-lacos.csproj", "{7077BFB8-9462-44F1-AD6F-AFFA4518DA85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7077BFB8-9462-44F1-AD6F-AFFA4518DA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7077BFB8-9462-44F1-AD6F-AFFA4518DA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7077BFB8-9462-44F1-AD6F-AFFA4518DA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7077BFB8-9462-44F1-AD6F-AFFA4518DA85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB9AD20-F363-4807-8FD5-B5EB31575989}
+	EndGlobalSection
+EndGlobal

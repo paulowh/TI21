@@ -1,0 +1,7 @@
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\bin\Debug\projeto-registradora.exe.config
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\bin\Debug\projeto-registradora.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\bin\Debug\projeto-registradora.pdb
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\obj\Debug\projeto-registradora.csproj.AssemblyReference.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\obj\Debug\projeto-registradora.csproj.CoreCompileInputs.cache
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\obj\Debug\projeto-registradora.exe
+C:\Users\paulo.hsantos26\source\repos\aula-algoritmo-TI21\projeto-registradora\projeto-registradora\obj\Debug\projeto-registradora.pdb

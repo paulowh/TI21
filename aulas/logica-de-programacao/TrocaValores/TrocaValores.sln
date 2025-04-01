@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrocaValores", "TrocaValores\TrocaValores.csproj", "{9FDF0AB4-38DF-4A43-87D2-0E2A6C5217CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDF0AB4-38DF-4A43-87D2-0E2A6C5217CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDF0AB4-38DF-4A43-87D2-0E2A6C5217CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDF0AB4-38DF-4A43-87D2-0E2A6C5217CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDF0AB4-38DF-4A43-87D2-0E2A6C5217CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FF3A0B4-BDB2-4FDB-8E4C-0AC4F10C1F69}
+	EndGlobalSection
+EndGlobal
